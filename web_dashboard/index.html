@@ -1,0 +1,21 @@
+<html lang = "en">
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    </head>
+    <body>
+        <h1> Data Dashboard </h1>
+        <div class="dashboard">
+            <canvas id="chart"></canvas>
+        </div>
+        <div class="dashboard">
+            <canvas id="pie-chart"></canvas>
+        </div>
+        <script src="script.js"></script>
+        <div>
+            <h2>Game Recommender</h2>
+            <textarea id="userInput" rows="4" cols="100" placeholder="Enter game description"></textarea><br>
+            <button onclick="getRecommendations()">Submit</button>
+        </div>
+        <div id="results"></div>
+    </body>
+</html>
